@@ -14,19 +14,68 @@ body {
   grid-gap: 12px;
 }
 
+
+/* NEW CATEGORY CODE START*/
 #main-mosaic{
 text-align: center;
 justify-content: center;
 margin-bottom: 30px;
 
+
+
+
 }
 
+.img-box {
+  position: relative;
+}
 
+.new-box {
+  text-align: center;
+  vertical-align: middle;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  position: absolute;
+  right: 30px;
+  top: 0px;
+  font-size: 12px;
+  color: white;
+  background-color: grey;
+  border: none;
+  width: 50px;
+
+
+
+}
+
+.light-box {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+  position: absolute;
+  right: 30px;
+  top: 45px;
+  font-size: 9px;
+  color: white;
+  background-color: #2a4d6c;
+  border: none;
+  width: 50px;
+  height: 24px;
+  vertical-align: middle;
+  padding-top: 5px;
+
+}
 .grid-container-category {
   display: grid;
   grid-template: 33% 33% 33% / 25% 25% 25% 25%;
   grid-gap: 12px;
-  max-width: 960 px;
+  max-width: 960px;
+  contain: content;
+  padding: 0 20px;
+
 }
 
 .flex-container {
@@ -53,15 +102,6 @@ margin-bottom: 30px;
   align-items: center;
   contain: content;
 }
-}
-
-#header-category, 
-#text-category,
-#mail-category
-{
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
 #row-1-col-1 {
@@ -107,6 +147,18 @@ main {
   text-align: right;
 }
 
+/* NEW CATEGORY CODE END*/
+
+/* BOTTOM MAIL PART FIX */
+#header-category, 
+#text-category,
+#mail-category
+{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/* BOTTOM MAIL PART FIX */
 
 .grid-container >a {
   text-align: center;
