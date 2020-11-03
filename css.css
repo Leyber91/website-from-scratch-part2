@@ -137,6 +137,7 @@ main {
   text-align: center;
   align-items: center;
   margin-bottom: 30px;
+  max-width: 960px;
 }
 
 #filter-by {
