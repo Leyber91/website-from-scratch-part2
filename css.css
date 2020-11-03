@@ -14,6 +14,100 @@ body {
   grid-gap: 12px;
 }
 
+#main-mosaic{
+text-align: center;
+justify-content: center;
+margin-bottom: 30px;
+
+}
+
+
+.grid-container-category {
+  display: grid;
+  grid-template: 33% 33% 33% / 25% 25% 25% 25%;
+  grid-gap: 12px;
+  max-width: 960 px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 9px;
+}
+
+.box-one {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  contain: content;
+}
+.box-two {
+  grid-column-end: span 2;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  contain: content;
+}
+}
+
+#header-category, 
+#text-category,
+#mail-category
+{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#row-1-col-1 {
+ order: 1;
+}
+#row-1-col-2 {
+  order: 2;
+ }
+#row-1-col-3 {
+  order: 3;
+}
+#row-2-col-1 {
+  order: 4;
+}
+#row-2-col-2 {
+  order: 5;
+}
+#row-2-col-3 {
+  order: 6;
+}
+#row-2-col-4 {
+  order: 7;
+}
+#row-3-col-1 {
+  order: 8;
+}
+#row-3-col-2 {
+  order: 9;
+}
+
+main {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+#filter-by {
+  text-align: left;
+}
+
+#sort-by {
+  text-align: right;
+}
+
+
 .grid-container >a {
   text-align: center;
   text-decoration: none;
