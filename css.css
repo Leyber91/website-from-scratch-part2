@@ -150,6 +150,62 @@ main {
 
 /* NEW CATEGORY CODE END*/
 
+/* NEW FAQP START*/
+
+#header-faq {
+  color: #cf2c30;
+}
+
+#main-picture-faq {
+  background-image: url("./dark\ shoe.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 960px;
+  padding: 100px 0;
+  color: white;
+  background-position: center;
+  font-size: 30px;
+}
+
+#faq-text-img {
+  color: white;
+  font-weight: bold;
+  font-size: px;
+}
+
+.sub-section {
+  display: flex;
+  margin: 20px 0;
+}
+
+.title-icon {
+  width: 40%;
+  text-align: right;
+  vertical-align: middle ;
+  padding: 5px 30px 5px;
+  border-right: 3px solid #cf2c30;
+}
+
+.text-part {
+  width: 60%;
+  text-align: left;
+  padding: 5px 30px;
+  font-size: 10px;
+
+}
+
+h5 {
+  color: #cf2c30;
+}
+
+/* NEW FAQP END*/
+
+
+
 /* BOTTOM MAIL PART FIX */
 #header-category, 
 #text-category,
