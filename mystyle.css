@@ -1,0 +1,44 @@
+body{
+  max-width:960px;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'Item1 Item1 Item2 Item2 Item3 Item3'
+      'Item4 Item4 Item4 Item5 Item5 Item5'
+      'mail mail mail mail mail mail';
+    grid-gap: 10px;
+    padding: 0px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .stayHome{
+    grid-area:header;
+  }
+  .hombre{
+    grid-area:Item1;
+  }
+
+  .mujer{
+    grid-area:Item2;
+  }
+
+  .accessories{
+    grid-area:Item3;
+  }
+  .zapatosHombre{
+    grid-area:Item4;
+  }
+  .zapatosMujer{
+    grid-area:Item5;
+  }
+
+  .mail{
+    grid-area:mail;
+  }

@@ -1,0 +1,99 @@
+body {
+  max-width: 960px;
+  margin: auto;
+  font-family: 'Work Sans', sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template:
+    "header header header header header header" 400px
+    "item1  item1  item2  item2  item3  item3"  400px
+    "item4  item4  item4  item5  item5  item5"  300px
+    "mail   mail   mail   mail   mail   mail"   auto/
+    auto    auto   auto   auto   auto   auto;
+  grid-gap: 12px;
+}
+
+.grid-container >a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.grid-container>a h3{
+    margin-top: 50px;
+}
+
+.stayHome:hover, .men:hover, .women:hover, .accessories:hover, .womenShoes:hover, .menShoes:hover {
+    opacity:0.8;
+}
+.stayHome {
+  grid-area: header;
+  background-image: url("https://images.pexels.com/photos/2948260/pexels-photo-2948260.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
+  background-position: center bottom +25%;
+  background-color: black;
+  background-size: cover;
+}
+
+.men {
+  grid-area: item1;
+  background-image: url("https://images.unsplash.com/photo-1556278777-a2a98c0d56da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+  background-position: center bottom 0px;
+  background-size: cover;
+}
+
+.women {
+  grid-area: item2;
+  background-image: url("https://images.pexels.com/photos/1374910/pexels-photo-1374910.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.accessories {
+  grid-area: item3;
+  background-image: url("https://images.unsplash.com/photo-1596540114499-049fe8531260?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+  background-position: center bottom 0px;
+  background-size: cover;
+}
+.menShoes {
+  grid-area: item4;
+  background-image: url("https://images.unsplash.com/photo-1549298916-b41d501d3772?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+  background-position: center bottom;
+  background-size: cover;
+}
+.womenShoes {
+  grid-area: item5;
+  background-image: url("https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1000");
+  background-position: center bottom;
+  background-size: cover;
+}
+
+.mail {
+  grid-area: mail;
+  color: black !important;
+  padding: 25px 0px;
+  border-top: 1px solid #66666644 ;
+}
+.mail>i{
+    color: #555;
+}
+.mainButton{
+    border:none;
+    padding: 2px 0px;
+    width: 120px;
+    font-size: smaller;
+    background-color: white;
+}
+.mailButton{
+    border:none;
+    padding: 4px 0px;
+    width: 200px;
+    font-size: smaller;
+    color:white;
+    background-color: #cf2c30;
+}
+button:hover{
+    cursor: pointer;
+}
+.center{
+    margin-top:100px;
+}
